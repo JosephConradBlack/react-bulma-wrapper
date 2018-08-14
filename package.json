@@ -1,0 +1,69 @@
+{
+  "name": "react-bulma-wrapper",
+  "version": "0.1.0",
+  "description": "A thin React component wrapper around the popular css framework Bulma",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "prepbulish": "",
+    "test": "jest --json --watch --outputFile=.jest-test-results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephConradBlack/react-bulma-wrapper.git"
+  },
+  "keywords": [
+    "react",
+    "bulma"
+  ],
+  "author": "Joseph Black <josephconradblack@gmail.com> (https://josephconradblack.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephConradBlack/react-bulma-wrapper/issues"
+  },
+  "homepage": "https://github.com/JosephConradBlack/react-bulma-wrapper#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "bulma": "^0.7.1"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "bulma": "^0.7.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "docz": "^0.10.2",
+    "docz-plugin-babel6": "^0.9.6",
+    "docz-plugin-css": "^0.9.6",
+    "docz-plugin-snapshots": "^0.1.0",
+    "eslint": "^4.1.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "jest-css-modules": "^1.1.0",
+    "jest-mdx-loader": "^0.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-hot-middleware": "^2.22.3",
+    "webpack-hot-server-middleware": "^0.5.0",
+    "webpack-merge": "^4.1.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
