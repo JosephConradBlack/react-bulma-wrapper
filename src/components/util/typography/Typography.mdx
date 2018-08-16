@@ -1,0 +1,26 @@
+---
+name: Bulma.Typography
+route: /bulma/typography
+---
+
+# Typography Helpers
+
+The following props are available in a variety of components to provide a generic ability to style components in the same fashion as Bulma's helper classes.
+
+## Alignment
+
+| Property  | Type |                                  Description |
+|:----------|:----:|---------------------------------------------:|
+| centered  | bool |             Center all children text content |
+| justified | bool |            Justify all children text content |
+| left      | bool |  Align all children text content to the left |
+| right     | bool | Align all children text content to the right |
+
+import { Playground, PropsTable} from 'docz'
+import Container from '../../Layout/Container';
+
+<Playground>
+    <Container centered>
+      <div style={{backgroundColor: 'lightblue'}}>Center aligned text</div>
+    </Container>
+</Playground>

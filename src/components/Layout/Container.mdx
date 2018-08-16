@@ -1,0 +1,57 @@
+---
+name: Bulma.Container
+route: /bulma/container
+---
+
+import { Playground, PropsTable} from 'docz'
+import Title from '../Elements/Title';
+import Subtitle from '../Elements/Subtitle';
+import Container from './Container';
+
+# Container
+
+
+<PropsTable of={Container} />
+
+A simple container to center your content horizontally.
+
+Containers support the full suite of [Typography Helpers](/bulma/typography).
+
+## Basic Usage
+
+<Playground>
+  <Container>
+    <div style={{backgroundColor: 'lightblue'}}>This container is centered on desktop</div>
+  </Container>
+</Playground>
+
+## Fluid Width
+
+<Playground>
+  <Container fluid>
+    <div style={{backgroundColor: 'lightblue'}}> 
+      This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
+  viewport size.
+    </div>
+  </Container>
+</Playground>
+
+## Widescreen
+
+<Playground>
+  <Container fluid>
+    <div style={{backgroundColor: 'lightblue'}}>
+      This container is fullwidth until the widescreen breakpoint.
+    </div>
+  </Container>
+</Playground>
+
+## Full Hd
+
+<Playground>
+  <Container fullHd>
+    <div style={{backgroundColor: 'lightblue'}}>
+      This container is fullwidth until the FullHd breakpoint.
+    </div>
+  </Container>
+</Playground>

@@ -1,0 +1,58 @@
+---
+name: Bulma.Hero 
+route: /bulma/hero
+---
+
+import { Playground, PropsTable} from 'docz'
+import Hero from './Hero';
+import Title from '../../Elements/Title';
+import Subtitle from '../../Elements/Subtitle';
+import Container from '../../Layout/Container';
+
+# Hero
+
+<PropsTable of={Hero} />
+
+## Basic Usage
+
+The hero component allows you to add a full width banner to your webpage, which can optionally cover the full height of the page as well.
+
+<Playground>
+  <Hero primary>
+    <Hero.Body>
+      <Container>
+        <Title>Title</Title>
+        <Subtitle>Subtitle</Subtitle>
+      </Container>
+    </Hero.Body>
+  </Hero>
+</Playground>
+
+## Colours
+
+The hero component supports the 7 different color props (primary, info, success, warning, danger, light and dark)
+
+<Playground>
+  <Hero info>
+    <Hero.Body>
+      <Container>
+        <Title>Title</Title>
+        <Subtitle>Subtitle</Subtitle>
+      </Container>
+    </Hero.Body>
+  </Hero>
+</Playground>
+
+
+## Full height
+
+<Playground>
+  <Hero primary fullHeight>
+    <Hero.Body>
+      <Container>
+        <Title>Title</Title>
+        <Subtitle>Subtitle</Subtitle>
+      </Container>
+    </Hero.Body>
+  </Hero>
+</Playground>

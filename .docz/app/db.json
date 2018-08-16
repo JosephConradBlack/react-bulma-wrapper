@@ -1,0 +1,108 @@
+{
+  "config": {
+    "title": "React Bulma Wrapper Documentation",
+    "description": "A thin React component wrapper around the popular css framework Bulma",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "0.1.0",
+    "src": "./src/",
+    "hashRouter": true,
+    "port": 3001,
+    "plugins": [
+      {}
+    ]
+  },
+  "entries": {
+    "components/Layout/Container.mdx": {
+      "name": "Bulma.Container",
+      "route": "/bulma/container",
+      "id": "01CN11NG1W9ZX2TFWHF0T4FVP9",
+      "filepath": "components/Layout/Container.mdx",
+      "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Container.mdx",
+      "slug": "components-layout-container",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "container",
+          "value": "Container"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "fluid-width",
+          "value": "Fluid width"
+        },
+        {
+          "depth": 2,
+          "slug": "widescreen",
+          "value": "Widescreen"
+        },
+        {
+          "depth": 2,
+          "slug": "full-hd",
+          "value": "Full hd"
+        }
+      ]
+    },
+    "components/Layout/Hero/Hero.mdx": {
+      "name": "Bulma.Hero",
+      "route": "/bulma/hero",
+      "id": "01CN11NG1ZH7QH8WMV9ETKD2SD",
+      "filepath": "components/Layout/Hero/Hero.mdx",
+      "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Hero/Hero.mdx",
+      "slug": "components-layout-hero-hero",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hero",
+          "value": "Hero"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "colours",
+          "value": "Colours"
+        },
+        {
+          "depth": 2,
+          "slug": "full-height",
+          "value": "Full height"
+        }
+      ]
+    },
+    "components/util/typography/Typography.mdx": {
+      "name": "Bulma.Typography",
+      "route": "/bulma/typography",
+      "id": "01CN11NG1ZJ427JYBKW91G14WC",
+      "filepath": "components/util/typography/Typography.mdx",
+      "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/util/typography/Typography.mdx",
+      "slug": "components-util-typography-typography",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "typography-helpers",
+          "value": "Typography helpers"
+        },
+        {
+          "depth": 2,
+          "slug": "alignment",
+          "value": "Alignment"
+        }
+      ]
+    }
+  }
+}
