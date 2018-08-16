@@ -3808,9 +3808,9 @@ docz-plugin-css@^0.9.6:
     webpack "^4.16.3"
     webpack-chain "^4.8.0"
 
-docz-plugin-snapshots@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/docz-plugin-snapshots/-/docz-plugin-snapshots-0.1.0.tgz#1ab59417bbce28b049c80c494f110cdf4d753e13"
+docz-plugin-snapshots@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/docz-plugin-snapshots/-/docz-plugin-snapshots-0.2.0.tgz#aafeefbb4a1cbe89b8f2892008535dec7e3f3601"
   dependencies:
     jest-mdx-loader "^0.1.1"
 

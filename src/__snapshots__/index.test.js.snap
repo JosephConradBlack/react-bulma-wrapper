@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container_0 1`] = `
+<div
+  className="container"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    This container is centered on desktop
+  </div>
+</div>
+`;
+
+exports[`Container_1 1`] = `
+<div
+  className="container is-fluid"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    This container is 
+    <strong>
+      fluid
+    </strong>
+    : it will have a 32px gap on either side, on any viewport size.
+  </div>
+</div>
+`;
+
+exports[`Container_2 1`] = `
+<div
+  className="container is-fluid"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    This container is fullwidth until the widescreen breakpoint.
+  </div>
+</div>
+`;
+
+exports[`Container_3 1`] = `
+<div
+  className="container is-fullhd"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    This container is fullwidth until the FullHd breakpoint.
+  </div>
+</div>
+`;
+
+exports[`Hero_0 1`] = `
+<section
+  className="hero is-primary"
+>
+  <div
+    className="hero-body"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        Title
+      </h1>
+      <h2
+        className="subtitle"
+      >
+        Subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Hero_1 1`] = `
+<section
+  className="hero is-info"
+>
+  <div
+    className="hero-body"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        Title
+      </h1>
+      <h2
+        className="subtitle"
+      >
+        Subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Hero_2 1`] = `
+<section
+  className="hero is-primary is-fullheight"
+>
+  <div
+    className="hero-body"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        Title
+      </h1>
+      <h2
+        className="subtitle"
+      >
+        Subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Typography_0 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th
+        align="left"
+      >
+        Property
+      </th>
+      <th
+        align="center"
+      >
+        Type
+      </th>
+      <th
+        align="right"
+      >
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        align="left"
+      >
+        centered
+      </td>
+      <td
+        align="center"
+      >
+        bool
+      </td>
+      <td
+        align="right"
+      >
+        Center all children text content
+      </td>
+    </tr>
+    <tr>
+      <td
+        align="left"
+      >
+        justified
+      </td>
+      <td
+        align="center"
+      >
+        bool
+      </td>
+      <td
+        align="right"
+      >
+        Justify all children text content
+      </td>
+    </tr>
+    <tr>
+      <td
+        align="left"
+      >
+        left
+      </td>
+      <td
+        align="center"
+      >
+        bool
+      </td>
+      <td
+        align="right"
+      >
+        Align all children text content to the left
+      </td>
+    </tr>
+    <tr>
+      <td
+        align="left"
+      >
+        right
+      </td>
+      <td
+        align="center"
+      >
+        bool
+      </td>
+      <td
+        align="right"
+      >
+        Align all children text content to the right
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Typography_1 1`] = `
+<div
+  className="container has-text-centered"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightblue",
+      }
+    }
+  >
+    Center aligned text
+  </div>
+</div>
+`;
