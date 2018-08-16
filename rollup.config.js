@@ -1,5 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import commonjs from 'rollup-plugin-commonjs';
 import { uglify } from 'rollup-plugin-uglify';
 
 // `npm run build` -> `production` is true
@@ -14,6 +15,7 @@ export default {
   },
   plugins: [
     resolve(),
+
     babel({
       babelrc: false,
       exclude: 'node_modules/**',
@@ -23,6 +25,9 @@ export default {
         'transform-class-properties',
         'transform-object-rest-spread'
       ]
+    }),
+    commonjs({
+      namedExports: { classnames: ['cn'] }
     }),
     production && uglify()
   ],
