@@ -3,3 +3,42 @@ name: Title
 route: /elements/title
 menu: Elements
 ---
+
+import { Playground, PropsTable} from 'docz'
+import Title from './Title';
+import Subtitle from './Subtitle';
+
+# Title
+
+There are two types of headings:
+* Title
+* Subtitle
+
+<Playground>
+    <Title>Title</Title>
+    <Subtitle>Subtitle</Subtitle>
+</Playground>
+
+## Typography Helpers
+
+Titles support the full suite of [Typography Helpers](/bulma/typography).
+
+The size property is particularly of use:
+
+<Playground>
+    <Title size={1}>Title</Title>
+    <Title size={2}>Title</Title>
+    <Title size={3}>Title</Title>
+    <Title size={4}>Title</Title>
+    <Title size={5}>Title</Title>
+    <Title size={6}>Title</Title>
+    <Title size={7}>Title</Title>
+    <Subtitle size={1}>Subtitle</Subtitle>
+    <Subtitle size={2}>Subtitle</Subtitle>
+    <Subtitle size={3}>Subtitle</Subtitle>
+    <Subtitle size={4}>Subtitle</Subtitle>
+    <Subtitle size={5}>Subtitle</Subtitle>
+    <Subtitle size={6}>Subtitle</Subtitle>
+    <Subtitle size={7}>Subtitle</Subtitle>
+</Playground>
+
