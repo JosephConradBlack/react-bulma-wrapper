@@ -252,3 +252,28 @@ exports[`Typography_1 1`] = `
   </div>
 </div>
 `;
+
+exports[`index_0 1`] = `
+<section
+  className="hero is-primary"
+>
+  <div
+    className="hero-body"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        Title
+      </h1>
+      <h2
+        className="subtitle"
+      >
+        Subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+`;

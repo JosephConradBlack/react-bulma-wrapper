@@ -1,0 +1,32 @@
+---
+name: 1. Introduction
+route: /
+---
+
+import { Playground, PropsTable} from 'docz'
+import Hero from './components/Layout/Hero/Hero';
+import Title from './components/Elements/Title';
+import Subtitle from './components/Elements/Subtitle';
+import Container from './components/Layout/Container';
+
+# Introduction
+
+This library provides a set of lightweight React components for the popular CSS framework [Bulma](https://bulma.io/).
+
+The [usage](/usage) section contains full installation instructions and the [customize](/customize) section exaplins how customize
+Bulma with your own CSS. 
+
+## Declarative components
+
+As a declarative component API react-bulma-wrapper allows you to compose your UI with the confidence provided by prop-type validation
+
+<Playground>
+    <Hero primary>
+    <Hero.Body>
+        <Container>
+        <Title>Title</Title>
+        <Subtitle>Subtitle</Subtitle>
+        </Container>
+    </Hero.Body>
+    </Hero>
+</Playground>
