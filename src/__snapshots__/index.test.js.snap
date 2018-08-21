@@ -143,6 +143,251 @@ exports[`Hero_2 1`] = `
 </section>
 `;
 
+exports[`Navbar_0 1`] = `
+<ul>
+  <li>
+    <strong>
+      Navbar
+    </strong>
+      - The main navbar container
+  </li>
+  <li>
+    <strong>
+      Navbar.Brand
+    </strong>
+     - The left-side of the navbar. This component and it's children are always visible. This can optionally display a 'Hamburger' menu icon.
+  </li>
+  <li>
+    <strong>
+      Navbar.Menu
+    </strong>
+     - The right-side of the navbar. Hidden on small devices, visible on desktop
+  </li>
+  <li>
+    <strong>
+      Navbar.Start
+    </strong>
+     - The left part of the Navbar.Menu. This will appear next to the navbar brand on desktop
+  </li>
+  <li>
+    <strong>
+      Navbar.End
+    </strong>
+     - The right part of the Navbar.Menu. This will appear at the end of the navbar.
+  </li>
+  <li>
+    <strong>
+      Navbar.Item
+    </strong>
+     - Each individual item present on the Navbar.
+  </li>
+</ul>
+`;
+
+exports[`Navbar_1 1`] = `
+<nav
+  aria-label="main navigation"
+  className="navbar is-primary"
+>
+  <div
+    className="navbar-brand"
+  >
+    <a
+      className="navbar-item"
+    >
+      Brand
+    </a>
+    <a
+      aria-expanded="false"
+      aria-label="menu"
+      className="navbar-burger"
+      role="button"
+    >
+      <span
+        aria-hidden="true"
+      />
+      <span
+        aria-hidden="true"
+      />
+      <span
+        aria-hidden="true"
+      />
+    </a>
+  </div>
+  <div
+    className="navbar-menu"
+  >
+    <div
+      className="navbar-start"
+    >
+      <a
+        className="navbar-item"
+      >
+        Start 1
+      </a>
+      <a
+        className="navbar-item"
+      >
+        Start 2
+      </a>
+    </div>
+    <div
+      className="navbar-end"
+    >
+      <a
+        className="navbar-item"
+      >
+        End 1
+      </a>
+      <a
+        className="navbar-item"
+      >
+        End 2
+      </a>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Title_0 1`] = `
+<ul>
+  <li>
+    Title
+  </li>
+  <li>
+    Subtitle
+  </li>
+</ul>
+`;
+
+exports[`Title_1 1`] = `
+<h1
+  className="title"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_2 1`] = `
+<h2
+  className="subtitle"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_3 1`] = `
+<h1
+  className="title is-size-1"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_4 1`] = `
+<h1
+  className="title is-size-2"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_5 1`] = `
+<h1
+  className="title is-size-3"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_6 1`] = `
+<h1
+  className="title is-size-4"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_7 1`] = `
+<h1
+  className="title is-size-5"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_8 1`] = `
+<h1
+  className="title is-size-6"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_9 1`] = `
+<h1
+  className="title is-size-7"
+>
+  Title
+</h1>
+`;
+
+exports[`Title_10 1`] = `
+<h2
+  className="subtitle is-size-1"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_11 1`] = `
+<h2
+  className="subtitle is-size-2"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_12 1`] = `
+<h2
+  className="subtitle is-size-3"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_13 1`] = `
+<h2
+  className="subtitle is-size-4"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_14 1`] = `
+<h2
+  className="subtitle is-size-5"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_15 1`] = `
+<h2
+  className="subtitle is-size-6"
+>
+  Subtitle
+</h2>
+`;
+
+exports[`Title_16 1`] = `
+<h2
+  className="subtitle is-size-7"
+>
+  Subtitle
+</h2>
+`;
+
 exports[`Typography_0 1`] = `
 <table>
   <thead>

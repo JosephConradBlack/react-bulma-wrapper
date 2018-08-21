@@ -1,7 +1,45 @@
 ---
 name: Navbar
 route: /components/Navbar
-menu: Components
+menu: 6. Components
 ---
 
+
+import { Playground, PropsTable } from 'docz'
+import Title from '../../Elements/Title';
+import Subtitle from '../../Elements/Subtitle';
+import Container from '../../Layout/Container';
+import Navbar from './Navbar';
+
 # Navbar
+ 
+A responsive horizontal navbar that can support any kind of child component
+
+## Sub Components
+
+The Navbar component has a number of nested components that can be accessed via dot-notation.  
+
+* **Navbar**  - The main navbar container
+* **Navbar.Brand** - The left-side of the navbar. This component and it's children are always visible. This can optionally display a 'Hamburger' menu icon.
+* **Navbar.Menu** - The right-side of the navbar. Hidden on small devices, visible on desktop
+* **Navbar.Start** - The left part of the Navbar.Menu. This will appear next to the navbar brand on desktop
+* **Navbar.End** - The right part of the Navbar.Menu. This will appear at the end of the navbar.
+* **Navbar.Item** - Each individual item present on the Navbar.
+
+<Playground>
+    <Navbar primary>
+        <Navbar.Brand hamburger>
+            <Navbar.Item>Brand</Navbar.Item>
+        </Navbar.Brand>
+        <Navbar.Menu>
+            <Navbar.Start>
+                <Navbar.Item>Start 1</Navbar.Item>
+                <Navbar.Item>Start 2</Navbar.Item>
+            </Navbar.Start>
+            <Navbar.End>
+                <Navbar.Item>End 1</Navbar.Item>
+                <Navbar.Item>End 2</Navbar.Item>
+            </Navbar.End>
+        </Navbar.Menu>
+    </Navbar>
+</Playground> 
