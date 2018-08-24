@@ -18,7 +18,7 @@
     "customize.mdx": {
       "name": "3. Customize",
       "route": "/customize",
-      "id": "01CN2WYJW1B6PP1HGQM7XBX6MV",
+      "id": "01CNK9QS1H9SCW81JG5CWTBMNC",
       "filepath": "customize.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/customize.mdx",
       "slug": "customize",
@@ -35,7 +35,7 @@
     "index.mdx": {
       "name": "1. Introduction",
       "route": "/",
-      "id": "01CN2WYJW2V8S71BHAJJ6S2Q58",
+      "id": "01CNK9QS1K22Q7VM0JCAK2DXR2",
       "filepath": "index.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/index.mdx",
       "slug": "index",
@@ -57,7 +57,7 @@
     "usage.mdx": {
       "name": "2. Usage",
       "route": "/usage",
-      "id": "01CN2WYJW379XR5698SS0BD4VJ",
+      "id": "01CNK9QS1K0VC5KK83VKDRH9EJ",
       "filepath": "usage.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/usage.mdx",
       "slug": "usage",
@@ -74,7 +74,7 @@
     "components/Columns/Columns.mdx": {
       "name": "5. Columns",
       "route": "/Columns",
-      "id": "01CN2WYJW3MP3VKNAK7YWAN0AX",
+      "id": "01CNK9QS1KKR8VBWWP554DN3V0",
       "filepath": "components/Columns/Columns.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Columns/Columns.mdx",
       "slug": "components-columns-columns",
@@ -82,33 +82,50 @@
       "menu": null,
       "headings": []
     },
-    "components/Elements/Subtitle.mdx": {
-      "name": "Subtitle",
-      "route": "/elements/Subtitle",
-      "menu": "Elements",
-      "id": "01CN2WYJW3SDE5C48HK0SYYW44",
-      "filepath": "components/Elements/Subtitle.mdx",
-      "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Elements/Subtitle.mdx",
-      "slug": "components-elements-subtitle",
+    "components/Elements/Image.mdx": {
+      "name": "Image",
+      "route": "/elements/image",
+      "menu": "7. Elements",
+      "id": "01CNK9QS1MJGFDZ4WB7BJ97B27",
+      "filepath": "components/Elements/Image.mdx",
+      "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Elements/Image.mdx",
+      "slug": "components-elements-image",
       "order": 0,
-      "headings": []
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "image",
+          "value": "Image"
+        }
+      ]
     },
     "components/Elements/Title.mdx": {
       "name": "Title",
       "route": "/elements/title",
-      "menu": "Elements",
-      "id": "01CN2WYJW49W1GVBMP70G6X7X2",
+      "menu": "7. Elements",
+      "id": "01CNK9QS1MZY57Y0B8RDM55D40",
       "filepath": "components/Elements/Title.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Elements/Title.mdx",
       "slug": "components-elements-title",
       "order": 0,
-      "headings": []
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "title",
+          "value": "Title"
+        },
+        {
+          "depth": 2,
+          "slug": "typography-helpers",
+          "value": "Typography helpers"
+        }
+      ]
     },
     "components/Layout/Container.mdx": {
       "name": "Container",
-      "menu": "Layout",
+      "menu": "8. Layout",
       "route": "/layout/container",
-      "id": "01CN2WYJW4NMRJFHQEBY0QN0YP",
+      "id": "01CNK9QS1MS6EJPY6VNZ6EE5ZE",
       "filepath": "components/Layout/Container.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Container.mdx",
       "slug": "components-layout-container",
@@ -143,9 +160,9 @@
     },
     "components/Layout/Footer.mdx": {
       "name": "Footer",
-      "menu": "Layout",
+      "menu": "8. Layout",
       "route": "/layout/footer",
-      "id": "01CN2WYJW4F455SKS15YYXPZGJ",
+      "id": "01CNK9QS1MH9E07MVRCEVTCCPW",
       "filepath": "components/Layout/Footer.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Footer.mdx",
       "slug": "components-layout-footer",
@@ -160,9 +177,9 @@
     },
     "components/Layout/Section.mdx": {
       "name": "Section",
-      "menu": "Layout",
+      "menu": "8. Layout",
       "route": "/layout/section",
-      "id": "01CN2WYJW4D8Y8KJ18K9599YF1",
+      "id": "01CNK9QS1MKJ6X2AXWEEPEXQWX",
       "filepath": "components/Layout/Section.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Section.mdx",
       "slug": "components-layout-section",
@@ -178,8 +195,8 @@
     "components/Components/Navbar/Navbar.mdx": {
       "name": "Navbar",
       "route": "/components/Navbar",
-      "menu": "Components",
-      "id": "01CN2WYJW49AFN8TED96AYHK3H",
+      "menu": "6. Components",
+      "id": "01CNK9QS1NCK75FNPY2HC7QKVH",
       "filepath": "components/Components/Navbar/Navbar.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Components/Navbar/Navbar.mdx",
       "slug": "components-components-navbar-navbar",
@@ -189,14 +206,19 @@
           "depth": 1,
           "slug": "navbar",
           "value": "Navbar"
+        },
+        {
+          "depth": 2,
+          "slug": "sub-components",
+          "value": "Sub components"
         }
       ]
     },
     "components/Layout/Hero/Hero.mdx": {
       "name": "Hero",
-      "menu": "Layout",
+      "menu": "8. Layout",
       "route": "/layout/hero",
-      "id": "01CN2WYJW5JKS24YT0SRBZ8G7Q",
+      "id": "01CNK9QS1NFF2873513PX7482A",
       "filepath": "components/Layout/Hero/Hero.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/Layout/Hero/Hero.mdx",
       "slug": "components-layout-hero-hero",
@@ -227,7 +249,7 @@
     "components/util/typography/Typography.mdx": {
       "name": "4. Typography Helpers",
       "route": "/typography",
-      "id": "01CN2WYJW5ACEAEKYAQCQVDFDN",
+      "id": "01CNK9QS1NNG3ZGEQGPE2C0NZ5",
       "filepath": "components/util/typography/Typography.mdx",
       "link": "https://github.com/JosephConradBlack/react-bulma-wrapper/tree/master/src/components/util/typography/Typography.mdx",
       "slug": "components-util-typography-typography",

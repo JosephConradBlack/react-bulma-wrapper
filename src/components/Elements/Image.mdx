@@ -1,0 +1,39 @@
+---
+name: Image
+route: /elements/image
+menu: 7. Elements
+---
+
+import { Playground, PropsTable } from 'docz'
+import Image from './Image';
+import placeholderImage from './placeholderImage.svg';
+
+# Image
+
+<PropsTable of={Image} />
+
+Use an Image to specify to a precisely sized container to ensure your page layout isn't broken during image loading.
+
+<Playground>
+    <Image src={placeholderImage} size={128} />
+</Playground>
+
+## Rounded Images
+
+You can also make rounded images.
+
+<Playground>
+    <Image src={placeholderImage} size={128} rounded />
+</Playground>
+
+## Responsive images with radio
+
+The size property also supports the 16 ratio modifiers. This will
+cause the image container to take up the full-width available whilst maintaining the aspect ratio.
+
+These properties are useful if you don't know the exact dimensions of the image.
+
+<Playground>
+    <Image src={placeholderImage} size='square' />
+
+</Playground>

@@ -7,6 +7,8 @@ export const imports = {
     import(/* webpackPrefetch: true, webpackChunkName: "usage" */ 'usage.mdx'),
   'components/Columns/Columns.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "components-columns-columns" */ 'components/Columns/Columns.mdx'),
+  'components/Elements/Image.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "components-elements-image" */ 'components/Elements/Image.mdx'),
   'components/Elements/Title.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "components-elements-title" */ 'components/Elements/Title.mdx'),
   'components/Layout/Container.mdx': () =>
